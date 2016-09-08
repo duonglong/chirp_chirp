@@ -1,0 +1,19 @@
+DEB [20160201-12:07:44.377] thr=1   paramiko.transport: starting thread (client mode): 0xe780b710L
+INF [20160201-12:07:44.381] thr=1   paramiko.transport: Connected (version 2.0, client OpenSSH_6.6.1p1)
+DEB [20160201-12:07:44.381] thr=1   paramiko.transport: Write packet <kexinit>, length 318
+DEB [20160201-12:07:44.381] thr=1   paramiko.transport: Read packet <kexinit>, length 1633
+DEB [20160201-12:07:44.381] thr=1   paramiko.transport: kex algos:['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] client mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEB [20160201-12:07:44.381] thr=1   paramiko.transport: Ciphers agreed: local=aes128-cbc, remote=aes128-cbc
+DEB [20160201-12:07:44.382] thr=1   paramiko.transport: using kex diffie-hellman-group1-sha1; server key type ssh-rsa; cipher: local aes128-cbc, remote aes128-cbc; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+DEB [20160201-12:07:44.387] thr=1   paramiko.transport: Write packet <kex30>, length 133
+DEB [20160201-12:07:44.425] thr=1   paramiko.transport: Read packet <kex31>, length 691
+DEB [20160201-12:07:44.435] thr=1   paramiko.transport: Write packet <newkeys>, length 1
+DEB [20160201-12:07:44.435] thr=1   paramiko.transport: Read packet <newkeys>, length 1
+DEB [20160201-12:07:44.435] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20160201-12:07:44.444] thr=2   paramiko.transport: Write packet <service-request>, length 17
+DEB [20160201-12:07:44.473] thr=1   paramiko.transport: Read packet <service-accept>, length 17
+DEB [20160201-12:07:44.474] thr=1   paramiko.transport: userauth is OK
+DEB [20160201-12:07:44.474] thr=1   paramiko.transport: Write packet <userauth-request>, length 55
+DEB [20160201-12:07:44.489] thr=1   paramiko.transport: Read packet <userauth-success>, length 1
+INF [20160201-12:07:44.489] thr=1   paramiko.transport: Authentication successful!
+DEB [20160201-12:07:44.589] thr=1   paramiko.transport: EOF in transport thread
